@@ -1,0 +1,23 @@
+/* Add your styles in a separate CSS file or style section */
+div {
+    margin-bottom: 20px; /* Add spacing between sections */
+}
+
+label {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    margin-bottom: 5px; /* Add spacing between labels and input fields */
+}
+
+input {
+    width: 200px; /* Adjust the width as needed */
+    margin-bottom: 10px; /* Add spacing between input fields */
+}
+
+button {
+    width: 100px; /* Adjust the width as needed */
+}
+
+strong {
+    margin-right: 5px; /* Add spacing between the strong text and values */
+}

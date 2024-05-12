@@ -1,0 +1,15 @@
+<h1>Welcome trainer</h1>
+<button style="width: 150px; height: 40px;" [disabled]="whatToShow==1" (click)="changeWhatToShow(1)">TestManagement</button>
+<button style="width: 150px; height: 40px;"  [disabled]="whatToShow==2" (click)="changeWhatToShow(2)">QuestionManagement</button>
+<button style="width: 150px; height: 40px;"  [disabled]="whatToShow==3" (click)="changeWhatToShow(3)">AnswerVerification</button>
+<button style="width: 150px; height: 40px;" (click)="logout()">Logout</button>
+<div *ngIf="whatToShow==1">
+    <app-testmanagement></app-testmanagement>
+</div>
+<div *ngIf="whatToShow==2">
+    <app-questionmanagement></app-questionmanagement>
+</div>
+<div *ngIf="whatToShow==3">
+    <app-verifyans></app-verifyans>
+</div>
+

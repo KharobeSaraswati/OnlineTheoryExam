@@ -1,0 +1,41 @@
+/* Add your styles in a separate CSS file or style section */
+.login-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 200px;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  width: 100px;
+  background-color: #323532; /* Green color */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.demo-account {
+  background-color: #e6e6e6;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+strong {
+  color: #333; /* Dark gray color */
+  margin-right: 5px;
+}
